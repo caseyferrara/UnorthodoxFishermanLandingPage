@@ -4,10 +4,13 @@ html {
   height: 100%;
 }
 
-hr {
-  max-width: 1000px;
-  border-width: 2px;
-  opacity: 0.75;
+.image {
+  transition: transform 1s;
+  margin-top: 30px;
+}
+
+.image:hover {
+  transform: scale(1.2);
 }
 
 header.startup {
@@ -68,7 +71,7 @@ header.startup {
 }
 
 .btn {
-  margin-top: 50px;
+  margin-top: 25px;
   font-family: 'Amatic SC', cursive;
   font-size: 2em;
 }
@@ -78,7 +81,7 @@ header.startup {
 }
 
 .btn-md {
-  padding: 1rem 2rem;
+  padding: 1.5rem 3rem;
   border-radius: 100px !important;
   transition: transform 1s;
 }
@@ -87,10 +90,13 @@ header.startup {
   transform: scale(1.2);
 }
 
-.image {
-  transition: transform 1s;
+footer {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  color: black;
+  transition: all 1.5s linear;
 }
 
-.image:hover {
-  transform: scale(1.2);
+footer:hover {
+  transform: translateX(200px);
 }
